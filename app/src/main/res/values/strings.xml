@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ServicesExample</string>
+    <string name="stop">stop</string>
+    <string name="start">start</string>
+    <string name="service_stopped">Service stopped</string>
+    <string name="data_string">Data String</string>
+    <string name="send_data">send data</string>
+</resources>
