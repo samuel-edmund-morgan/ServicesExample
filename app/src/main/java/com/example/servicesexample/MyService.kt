@@ -25,7 +25,7 @@ class MyService : Service() {
         }
         //Because of that fact that Service by default runs on main thread - you should avoid doing hard tasks OR run them in different thread like this:
         Thread{
-            //for example while loop
+            //for example while loop (there is no need to create while loop, just an example)
             while(true){
                 //some important work here
             }

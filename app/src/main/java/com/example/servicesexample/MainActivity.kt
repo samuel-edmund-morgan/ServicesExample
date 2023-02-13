@@ -23,9 +23,9 @@ class MainActivity : AppCompatActivity() {
         activityMainBinding.btnStop.setOnClickListener {
             Intent(this, MyService::class.java).also {
                 stopService(it)
-                Log.d("MyService", "Service has stopped...")
                 activityMainBinding.tvServiceInfo.text = "Service stopped"
             }
+
         }
 
         activityMainBinding.btnSendData.setOnClickListener {
